@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		772022FB29CF84F800EC4BE9 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772022FA29CF84F800EC4BE9 /* Pizza.swift */; };
 		772022FD29CF855000EC4BE9 /* RequestPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772022FC29CF855000EC4BE9 /* RequestPizza.swift */; };
+		7720230029CF8E8B00EC4BE9 /* MyCustomCellXIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772022FE29CF8E8B00EC4BE9 /* MyCustomCellXIB.swift */; };
+		7720230129CF8E8B00EC4BE9 /* MyCustomCellXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 772022FF29CF8E8B00EC4BE9 /* MyCustomCellXIB.xib */; };
+		7720230329CF948D00EC4BE9 /* PriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720230229CF948D00EC4BE9 /* PriceViewController.swift */; };
 		772FF66A29CF845000C5F32F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FF66929CF845000C5F32F /* AppDelegate.swift */; };
 		772FF66C29CF845000C5F32F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FF66B29CF845000C5F32F /* SceneDelegate.swift */; };
 		772FF66E29CF845000C5F32F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FF66D29CF845000C5F32F /* ViewController.swift */; };
@@ -22,6 +25,9 @@
 		5FA303CCD248A835E240D4E9 /* Pods-ProjectClosureFour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectClosureFour.debug.xcconfig"; path = "Target Support Files/Pods-ProjectClosureFour/Pods-ProjectClosureFour.debug.xcconfig"; sourceTree = "<group>"; };
 		772022FA29CF84F800EC4BE9 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		772022FC29CF855000EC4BE9 /* RequestPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestPizza.swift; sourceTree = "<group>"; };
+		772022FE29CF8E8B00EC4BE9 /* MyCustomCellXIB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCellXIB.swift; sourceTree = "<group>"; };
+		772022FF29CF8E8B00EC4BE9 /* MyCustomCellXIB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCellXIB.xib; sourceTree = "<group>"; };
+		7720230229CF948D00EC4BE9 /* PriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewController.swift; sourceTree = "<group>"; };
 		772FF66629CF845000C5F32F /* ProjectClosureFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectClosureFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		772FF66929CF845000C5F32F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		772FF66B29CF845000C5F32F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +86,9 @@
 				772022FA29CF84F800EC4BE9 /* Pizza.swift */,
 				772022FC29CF855000EC4BE9 /* RequestPizza.swift */,
 				772FF66D29CF845000C5F32F /* ViewController.swift */,
+				772022FE29CF8E8B00EC4BE9 /* MyCustomCellXIB.swift */,
+				7720230229CF948D00EC4BE9 /* PriceViewController.swift */,
+				772022FF29CF8E8B00EC4BE9 /* MyCustomCellXIB.xib */,
 				772FF66F29CF845000C5F32F /* Main.storyboard */,
 				772FF67229CF845100C5F32F /* Assets.xcassets */,
 				772FF67429CF845100C5F32F /* LaunchScreen.storyboard */,
@@ -156,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7720230129CF8E8B00EC4BE9 /* MyCustomCellXIB.xib in Resources */,
 				772FF67629CF845100C5F32F /* LaunchScreen.storyboard in Resources */,
 				772FF67329CF845100C5F32F /* Assets.xcassets in Resources */,
 				772FF67129CF845000C5F32F /* Main.storyboard in Resources */,
@@ -213,6 +223,8 @@
 			files = (
 				772022FB29CF84F800EC4BE9 /* Pizza.swift in Sources */,
 				772FF66E29CF845000C5F32F /* ViewController.swift in Sources */,
+				7720230329CF948D00EC4BE9 /* PriceViewController.swift in Sources */,
+				7720230029CF8E8B00EC4BE9 /* MyCustomCellXIB.swift in Sources */,
 				772FF66A29CF845000C5F32F /* AppDelegate.swift in Sources */,
 				772022FD29CF855000EC4BE9 /* RequestPizza.swift in Sources */,
 				772FF66C29CF845000C5F32F /* SceneDelegate.swift in Sources */,
