@@ -12,6 +12,7 @@
 		7720230029CF8E8B00EC4BE9 /* MyCustomCellXIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772022FE29CF8E8B00EC4BE9 /* MyCustomCellXIB.swift */; };
 		7720230129CF8E8B00EC4BE9 /* MyCustomCellXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 772022FF29CF8E8B00EC4BE9 /* MyCustomCellXIB.xib */; };
 		7720230329CF948D00EC4BE9 /* PriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720230229CF948D00EC4BE9 /* PriceViewController.swift */; };
+		7720230529CF970300EC4BE9 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7720230429CF970300EC4BE9 /* RatingViewController.swift */; };
 		772FF66A29CF845000C5F32F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FF66929CF845000C5F32F /* AppDelegate.swift */; };
 		772FF66C29CF845000C5F32F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FF66B29CF845000C5F32F /* SceneDelegate.swift */; };
 		772FF66E29CF845000C5F32F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772FF66D29CF845000C5F32F /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 		772022FE29CF8E8B00EC4BE9 /* MyCustomCellXIB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCellXIB.swift; sourceTree = "<group>"; };
 		772022FF29CF8E8B00EC4BE9 /* MyCustomCellXIB.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomCellXIB.xib; sourceTree = "<group>"; };
 		7720230229CF948D00EC4BE9 /* PriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewController.swift; sourceTree = "<group>"; };
+		7720230429CF970300EC4BE9 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
 		772FF66629CF845000C5F32F /* ProjectClosureFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectClosureFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		772FF66929CF845000C5F32F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		772FF66B29CF845000C5F32F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				772FF66D29CF845000C5F32F /* ViewController.swift */,
 				772022FE29CF8E8B00EC4BE9 /* MyCustomCellXIB.swift */,
 				7720230229CF948D00EC4BE9 /* PriceViewController.swift */,
+				7720230429CF970300EC4BE9 /* RatingViewController.swift */,
 				772022FF29CF8E8B00EC4BE9 /* MyCustomCellXIB.xib */,
 				772FF66F29CF845000C5F32F /* Main.storyboard */,
 				772FF67229CF845100C5F32F /* Assets.xcassets */,
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				772022FB29CF84F800EC4BE9 /* Pizza.swift in Sources */,
+				7720230529CF970300EC4BE9 /* RatingViewController.swift in Sources */,
 				772FF66E29CF845000C5F32F /* ViewController.swift in Sources */,
 				7720230329CF948D00EC4BE9 /* PriceViewController.swift in Sources */,
 				7720230029CF8E8B00EC4BE9 /* MyCustomCellXIB.swift in Sources */,
